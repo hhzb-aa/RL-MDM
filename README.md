@@ -81,10 +81,9 @@ follow their data-use terms.
 - **Mayo 2016** — [2016 Low Dose CT Grand Challenge](https://www.aapm.org/grandchallenge/lowdosect/); McCollough et al., *Medical Physics*, 2017.
 - **Piglet** — [xinario/SAGAN](https://github.com/xinario/SAGAN); Yi & Babyn, *J. Digit. Imaging*, 2018, [DOI](https://doi.org/10.1007/s10278-018-0056-0). Piglet has no normal-dose reference and is used for qualitative assessment only.
 
-Subsets used in the paper: C016-10 %, C002-10 %, L266-25 % for training;
-L277-25 %, L067-25 %, L333-25 % for unseen/external evaluation.
 
----
+
+<!-- --- -->
 
 <!-- ## 🔍 Inference
 
@@ -109,7 +108,7 @@ x_dn = sample_with_modulation(backbone, schedule, policy, x_ld, steps=16)
 x_dn_no_rl = sample_no_modulation(backbone, schedule, x_ld, steps=16)  # baseline
 ``` -->
 
----
+<!-- --- -->
 
 <!-- ## 📝 Notes
 
