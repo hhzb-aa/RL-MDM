@@ -41,7 +41,7 @@ backbone under an aligned objective, so both pursue the same final-image goal.
 **The result.** Under an identical backbone and 16-step DDIM sampler, the learned
 modulation changes *what* the denoiser preserves rather than merely how strongly
 it denoises: it attains the best EPI and LPIPS on both 10 % chest subsets and the
-best PSNR among diffusion-based methods, improves PSNR/SSIM over the
+best PSNR among the tested diffusion-based methods, improves PSNR/SSIM over the
 fixed-schedule baseline on every internal and external validation set, and
 transfers to unseen patients without fine-tuning.
 
